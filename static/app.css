@@ -1,0 +1,48 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  flex-shrink: 0;
+  margin-bottom: 5px;
+}
+
+.flex-outer li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-outer {
+  list-style-type: none;
+}
+
+label {
+  padding: 0.5rem;
+}
+
+button {
+  margin: 10px;
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+#content {
+  flex: 1 0 auto;
+}
+
+input,
+label {
+  display: inline;
+}

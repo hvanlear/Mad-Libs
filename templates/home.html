@@ -1,0 +1,30 @@
+{% extends 'base.html' %} {% block title %} Make A Made Lib {% endblock %} {%
+block content %}
+<h1>Mad Libs</h1>
+<form action="/story">
+  <ul class="flex-outer">
+    <li>
+      <label for="place">Enter A Place</label>
+      <input type="text" name="place" id="place" />
+    </li>
+    <li>
+      <label for="noun">Enter A noun</label>
+      <input type="text" name="noun" id="noun" />
+    </li>
+    <li>
+      <label for="noun">Enter A adjective</label>
+      <input type="text" name="adjective" id="adjective" />
+    </li>
+    <li>
+      <label for="verb">Enter A verb</label>
+      <input type="text" name="verb" id="verb" />
+    </li>
+    <li>
+      <label for="plural_noun">Enter A plural_noun</label>
+      <input type="text" name="plural_noun" id="plural_noun" />
+    </li>
+
+    <button type="submit">Make Story</button>
+  </ul>
+</form>
+{% endblock %}
